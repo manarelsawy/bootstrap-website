@@ -1,0 +1,907 @@
+*
+{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.w-fit
+{
+    width: fit-content;
+}
+.w-90
+{
+    width: 90%;
+}
+
+.bg-gray
+{
+    background: #f7f7f7;
+}
+
+
+.sec-p
+{
+    padding: 100px 0;
+}
+
+.pb-70
+{
+    padding-bottom: 70px !important;
+}
+
+/*    HOME   */
+
+
+/* nav */
+.logo
+{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+
+.nav-link 
+{
+    color: #1c1c1c;
+    position: relative;
+    
+}
+
+ .navbar .active
+{
+    color: rgb(1, 5, 30) !important;
+    padding-bottom: 4px;
+    
+} 
+
+.navbar .active::after
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #1c1c1c;
+    left: 0px;
+    bottom: -5px;
+    transition:  all 0.6s;
+}
+
+
+/*  */
+.home
+{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.lay
+{
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.home h5 
+{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.home h2
+{
+    color: #fff;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.home h2::after
+{
+    content: "";
+    animation: typing 10s infinite;
+    animation-delay:0s ;
+    animation-fill-mode:inherit ;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: capitalize;
+
+}
+
+@keyframes typing {
+
+
+    0%
+    {
+        content: "larry daniels|";
+    }
+   
+    5%
+    {
+        content: "larry daniel|";
+    }
+    6%
+    {
+        content: "larry danie|";
+    }
+    7%
+    {
+        content: "larry dani|";
+    }
+    8%
+    {
+        content: "larry dan|";
+    }
+    9%
+    {
+        content: "larry da|";
+    }
+    10%
+    {
+        content: "larry d|";
+    }
+    11%
+    {
+        content: "larry |";
+    }
+    12%
+    {
+        content: "larry|";
+    }
+    13%
+    {
+        content: "larr|";
+    }
+    14%
+    {
+        content: "lar|";
+    }
+    15%
+    {
+        content: "la|";
+    }
+    16%
+    {
+        content: "l|";
+    }
+    
+    17%{
+        content: 'D|';
+    }
+    18%{
+        content: 'De|';
+    }
+    19%{
+        content: 'Dev|';
+    }
+    20%{
+        content: 'Deve|';
+    }
+    21%{
+        content: 'Devel|';
+    }
+    22%{
+        content: 'Develo|';
+    }
+    23%{
+        content: 'Develop|';
+    }
+    24%{
+        content: 'Develope|';
+    }
+    25%{
+        content: 'Develope|';
+    }
+    26%{
+        content: 'Developer|';
+    }
+    36%{
+        content: 'Developer|';
+    }
+
+    37%{
+        content: 'Develope|';
+    }
+    38%{
+        content: 'Develo|';
+    }
+    39%{
+        content: 'Devel|';
+    }
+    40%{
+        content: 'Deve|';
+    }
+    41%{
+        content: 'Deve|';
+    }
+    42%{
+        content: 'Dev|';
+    }
+    43%{
+        content: 'De|';
+    }
+    44%{
+        content: '|';
+    }
+    
+    45%{
+        content: 'D|';
+    }
+    46%{
+        content: 'De|';
+    }
+    47%{
+        content: 'Des|';
+    }
+    48%{
+        content: 'Desi|';
+    }
+    49%{
+        content: 'Desig|';
+    }
+    50%{
+        content: 'Design|';
+    }
+    51%{
+        content: 'Designe|';
+    }
+    52%{
+        content: 'Designer|';
+    }
+    62%{
+        content: 'Designer|';
+    }
+    63%{
+        content: 'Designe|';
+    }
+    64%{
+        content: 'Design|';
+    }
+    65%{
+        content: 'Desig|';
+    }
+    66%{
+        content: 'Desi|';
+    }
+    67%{
+        content: 'Des|';
+    }
+    68%{
+        content: 'De|';
+    }
+    69%{
+        content: 'D|';
+    }
+    70%{
+        content: '|';
+    }
+    71%
+    {
+        content: "l|";
+    }
+    72%
+    {
+        content: "la|";
+    }
+    73%
+    {
+        content: "lar|";
+    }
+    74%
+    {
+        content: "larr|";
+    }
+    75%
+    {
+        content: "larry|";
+    }
+    76%
+    {
+        content: "larry |";
+    }
+    77%
+    {
+        content: "larry d|";
+    }
+    78%
+    {
+        content: "larry da|";
+    }
+    79%
+    {
+        content: "larry dan|";
+    }
+    80%
+    {
+        content: "larry dani|";
+    }
+    81%
+    {
+        content: "larry danie|";
+    }
+    82%
+    {
+        content: "larry daniel|";
+    }
+    83%
+    {
+        content: "larry daniels|";
+    }
+    100%
+    {
+        content: "larry daniels|";
+    }
+  
+    
+
+}
+
+
+
+
+
+.home .h-icon
+{
+    margin-top: 30px;
+}
+ 
+.home .icon 
+{
+        font-size: 14px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    /* width: 50px;
+    height: 50px;
+    color: #fff;
+    border: #666060;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%; */
+}
+
+
+
+
+/*    ABOUT   */
+
+.hero img
+{
+    width: 100%;
+    height: auto;
+
+}
+
+.about .hero::after
+{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -20px;
+    bottom: -30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.about .t-about h3
+{
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.about .t-about span
+{
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.about .t-about p
+{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+.about .t-about p b
+{
+    font-weight: 700;
+
+}
+
+.about .progress
+{
+    height: 25px;
+}
+.about .progress-bar
+{
+   background-color: #1c1c1c;
+}
+
+.about .skills
+{
+    margin-top: 30px;
+}
+
+.about .inner button
+{
+    margin-top: 30px;
+}
+
+.about .inner .btn-dark:hover
+{
+    background-color: #fff;
+    color: #1c1c1c;
+}
+
+.about .inner button
+{
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1c1c1c;
+}
+
+
+.about .inner .btn-light:hover
+{
+    background-color: #1c1c1c;
+    color:#fff;
+}
+
+
+/* SERVICES */
+.services .container
+{
+    margin-bottom: 30px;
+}
+
+.sec-head
+{
+    margin-bottom: 80px;
+}
+
+
+.sec-head h3
+{
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.sec-head h3::after
+{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+.services .inner .icon
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.services .inner:hover .icon
+{
+    background: #1c1c1c;
+    color: #eee;
+}
+
+.services .inner h6 {
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.services .inner p  
+{
+    word-spacing: 2px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    color: #748182;
+}
+
+.card
+{
+    padding: 50px 20px;
+}
+.services .inner
+{
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 50px 20px;
+    border-radius: 5px;
+
+    
+}
+
+
+
+
+
+/* Portfolio */
+
+.Portfolio ul .active
+{
+    
+        margin: 0 15px !important;
+        color: #222 !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        cursor: pointer !important;
+        position: relative !important;
+        z-index: 2 !important;
+
+}
+
+
+
+.Portfolio .lay
+{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    z-index:2;
+    transition: all 0.5s;
+    transform: translateY(10px);
+    opacity: 0;
+    
+
+}
+
+
+
+.Portfolio .inner:hover .lay
+{
+    transform: translate(0%);
+    opacity: 1;
+
+}
+.Portfolio .inner h6
+{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 15px;
+    transform: translateY(-15px);
+    transition: all 0.5s;
+    font-family: "Montserrat", sans-serif;
+}
+
+.lay-content
+{
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+.lay .iicon
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color:#fff;
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.3s;
+}
+.Portfolio .lay .iicon:hover
+{
+    background-color: #fff;
+    color: #1c1c1c;
+}
+
+
+/* Testimonials */
+.Testimonials .t-content img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.Testimonials .t-content p
+{
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+
+.Testimonials .t-content h6
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Testimonials .t-content span
+
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.Testimonials  .carousel-indicators button
+{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px 7px !important;
+    background: #666060 !important;
+    transition: opacity 0.2s ease !important;
+    border-radius:30px !important;
+}
+
+.carousel-indicators
+{
+    bottom: -25px;
+    
+}
+
+/* counter */
+
+.counter .icon
+{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.counter .inner h3
+{
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.counter .inner p
+{
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+
+
+/* our team */
+.team .inner
+{
+    background-color: rgba(52, 52, 52, .8);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.team .inner .t-text h4
+{
+    margin: 0 0 5px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.team .inner .t-text h5
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.team .inner .t-text
+{
+    padding: 25px;
+    color: #fff;
+}
+
+.img-lay
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    inset: 5px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.team .inner:hover .img-lay
+{
+    opacity: 1;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    transform: rotatey(360deg);
+
+}
+
+.team .inner img
+{
+    transition: all 0.5s;
+}
+
+.team .inner:hover img
+{
+   transform: scale(1.2);
+}
+.team .t-iicon i
+{
+    
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.team .t-iicon
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: #1c1c1c;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    background-color: #1c1c1c;
+    transition:  all 0.3s;
+}
+.team .t-iicon:hover
+{
+    color: #1c1c1c;
+    background-color: #fff;
+
+}
+
+
+/* contact */
+
+.contact .c-icon
+{
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.contact .inner h6
+{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+.contact .inner p
+{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.contact .inner 
+{
+    margin-bottom: 30px;
+}
+
+.contact .c-icon:hover
+{
+    background-color: #1c1c1c;
+    color: #fff;
+
+}
+
+.contact .form-control:focus
+{
+    box-shadow: none;
+    border-color: none;
+    border: none;
+    background-color: #f4f4f4;
+}
+.contact input
+{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+
+}
+.contact textarea
+{
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+.contact button
+{
+    border-radius: 4px;
+    border-color: #222;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.contact button:hover
+{
+    background-color: #fff;
+    color: #1c1c1c;
+}
+
+/* End */
+.end 
+{
+    background: #1c1c1c;
+    padding: 30px;
+}
+
+.end p
+{
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 0;
+    color: #748182;
+    font-family: "Poppins", sans-serif;
+}
